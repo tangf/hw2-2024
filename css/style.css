@@ -1,12 +1,10 @@
 /*Add padding and margin to space out the page.
 Make the font larger too.*/
 body{
-    font-family: Arial, Verdana;
+    font-family: "Arial", "Verdana";
     background-color: #000000;
     color: #FFFFFF;
-	margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+	margin: 20px 20px 0 20px
 }
 
 /*Make the h1 heading bigger with a bold font*/
@@ -23,8 +21,7 @@ h2{
 
 p {
     font-size: 24px; 
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px 0 0 10px;
 }
   
 img {
@@ -35,11 +32,10 @@ img {
 }
 
 div {
-    height: 125px;
     min-height: 125px;
     padding: 20px;
-    border: 3px solid white;
-  }
+    border: 3px solid #FFFFFF;
+}
 
 .introduction{
     border-radius: 15px;
@@ -51,8 +47,8 @@ div {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid #ffffff;
-    border-left: 5px solid #ffffff; 
+    border-bottom: 2px solid;
+    border-left: 5px solid; 
 }
 
 .blue{
@@ -60,8 +56,8 @@ div {
     color: #C4C4C4;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px solid #C4C4C4;
-    border-top: 2px solid #C4C4C4;
+    border-right: 5px solid;
+    border-top: 2px solid;
 }
 
 .yellow{
@@ -69,20 +65,20 @@ div {
     color: #707070;
     text-align: right;
     margin-left: 50px;
-    border-left: 5px solid #707070;
-    border-bottom: 2px solid #707070;
+    border-left: 5px solid;
+    border-bottom: 2px solid;
 }
 
 .green{
     background-color: #00D800;
     text-align: left; 
     margin-right: 50px;
-    border-right: 5px solid #ffffff;
-    border-top: 2px solid #ffffff;
+    border-right: 5px solid;
+    border-top: 2px solid;
 }
 
 footer{
-	background: linear-gradient(to right, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+	background: linear-gradient(to bottom, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
     border: 5px solid #ffffff;
 }
 
