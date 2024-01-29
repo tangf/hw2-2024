@@ -3,10 +3,10 @@ Make the font larger too.*/
 body{
     font-family: Arial, Verdana;
     background-color: #000000;
-    color: #ffffff;
-	margin: 20px;
-    margin-bottom: 0;
-	font-size:125%;
+    color: #FFFFFF;
+	margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /*Make the h1 heading bigger with a bold font*/
